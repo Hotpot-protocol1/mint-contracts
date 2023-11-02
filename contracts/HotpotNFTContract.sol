@@ -285,7 +285,7 @@ contract HotpotNFTContract is ERC721, ERC721URIStorage, Ownable, VRFV2WrapperCon
 
     function supportsInterface(
         bytes4 interfaceId
-    ) public view override(ERC721, ERC721URIStorage) returns (bool) {
+    ) public view override(ERC721) returns (bool) {
         return super.supportsInterface(interfaceId);
     }
 

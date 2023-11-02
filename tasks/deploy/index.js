@@ -1,0 +1,1 @@
+exports.deployHotpotNftFactory = require("./deployFactory");
